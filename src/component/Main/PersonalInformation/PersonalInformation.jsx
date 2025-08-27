@@ -72,7 +72,7 @@ const PersonalInformation = () => {
             />
           </Form.Item>
           <Link to="/edit-personal-info">
-          <button className="w-full px-8 py-3 bg-[#309EAD] font-semibold rounded-lg">
+          <button className="w-full px-8 py-3 bg-[#00aff5] font-semibold rounded-lg">
            {t("Edit Information")}
           </button>
         </Link>
