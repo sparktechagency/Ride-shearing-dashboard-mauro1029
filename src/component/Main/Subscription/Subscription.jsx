@@ -180,13 +180,13 @@ const Subscription = () => {
         </h1>
         <Form layout="inline" className="flex space-x-4">
           <Item name="username">
-            <button className="  flex justify-center items-center py-3 px-5 rounded-md bg-[#FFF]">
+            <button className="  flex justify-center items-center py-3 px-5 rounded-md bg-[#00aff5] text-white text-base">
               {t("Subscriptions buying user")}
             </button>
           </Item>
           <Item>
             <Link to="/SubscriptionCard">
-            <button className="rounded-md flex justify-center items-center py-3 px-5 border border-[#FFF]">
+            <button className="rounded-md flex justify-center items-center py-3 px-5 border bg-[#00aff5] text-white text-base">
                 {t("Subscription")}
             </button>
             </Link>

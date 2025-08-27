@@ -70,7 +70,7 @@ const Settings = () => {
           <h2 className="text-xl">{setting.title}</h2>
           <h2>
             {setting.path === "notification" ? (
-              <Switch defaultChecked onChange={() => {}} />
+              <Switch defaultChecked onChange={() => { }} />
             ) : (
               <MdKeyboardArrowRight size={40} />
             )}
