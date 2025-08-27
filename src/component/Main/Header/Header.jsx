@@ -33,7 +33,7 @@ const Header = ({ toggleSidebar }) => {
         </div>
         <div>
           <select
-            className=" py-2 rounded-md"
+            className=" py-2 px-3 rounded-md"
             onClick={(e) => changeLanguage(e.target.value)}
           >
             <option value="en">English</option>
