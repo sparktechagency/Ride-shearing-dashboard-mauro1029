@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 import { useTranslation } from "react-i18next";
 import { useGetAllUsersQuery } from "../../../redux/features/user/userApi";
+import { FaUsersGear } from "react-icons/fa6";
 const { Item } = Form;
 
 const Driver = () => {
@@ -110,7 +111,8 @@ const Driver = () => {
         <Form layout="inline" className="flex space-x-4">
           <Link to="/driver-list">
             {" "}
-            <div className="bg-[#00AFF5] p-2 rounded-md">
+            <div className="bg-[#00AFF5] py-2 px-5 rounded-md flex items-center text-white gap-2 text-base">
+              <FaUsersGear />
               {t("Driver List")}
             </div>
           </Link>
