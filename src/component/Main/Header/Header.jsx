@@ -26,10 +26,9 @@ const Header = ({ toggleSidebar }) => {
 
       <div className="flex justify-between items-center gap-8">
         <div className="flex space-x-2">
-     
-          <h1 className="text-[24px] font-bold text-[#161D6F]">
+          {/* <h1 className="text-[24px] font-bold text-[#161D6F]">
             {t("Language Switcher")}
-          </h1>
+          </h1> */}
         </div>
         <div>
           <select
