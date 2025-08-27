@@ -12,13 +12,13 @@ const Status = () => {
           <PiUsersThreeFill className="text-4xl text-[#222222]" />
         </div>
         <div className="space-y-2 ml-4">
-          <h1 className="text-center text-[#222222] text-2xl font-bold">
+          <h1 className=" text-[#ffffff] text-2xl font-bold">
             {t("Total User")}
           </h1>
-          <h1 className="text-center text-4xl font-semibold text-[#222222]">
+          <h1 className=" text-4xl font-semibold text-[#ffffff]">
             369
           </h1>
-          <p className="text-center text-[#1f1f1f]">
+          <p className=" text-[#ffffff]">
             {t("Last month total")} 1050
           </p>
         </div>
@@ -30,14 +30,14 @@ const Status = () => {
           <PiCurrencyCircleDollar className="text-4xl text-[#222222]" />
         </div>
         <div className="space-y-2 ml-4">
-          <h1 className="text-center text-[#222222] text-2xl font-bold">
+          <h1 className=" text-[#ffffff] text-2xl font-bold">
             {t("Total Earnings")}
           </h1>
-          <h1 className="text-center text-4xl font-semibold text-[#222222]">
+          <h1 className=" text-4xl font-semibold text-[#ffffff]">
             359
           </h1>
 
-          <p className="text-center text-[#1f1f1f]">
+          <p className=" text-[#ffffff]">
             {t("Last month total")} 1050
           </p>
         </div>
@@ -49,14 +49,14 @@ const Status = () => {
           <FaDatabase className="text-4xl text-[#222222]" />
         </div>
         <div className="space-y-2 ml-4">
-          <h1 className="text-center text-[#222222] text-2xl font-bold">
+          <h1 className=" text-[#ffffff] text-2xl font-bold">
             {t("Total Subscription")}
           </h1>
-          <h1 className="text-center text-4xl font-semibold text-[#222222]">
+          <h1 className=" text-4xl font-semibold text-[#ffffff]">
             01
           </h1>
 
-          <p className="text-center text-[#1f1f1f]">
+          <p className=" text-[#ffffff]">
             {t("Last month total")} 05
           </p>
         </div>
