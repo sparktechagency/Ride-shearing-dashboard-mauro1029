@@ -20,7 +20,7 @@ const Earnings = () => {
       fullName: "John Doe",
       accountID: 2010,
       gender: "Male",
-      phonNumber: 4567-7894,
+      phonNumber: 4567 - 7894,
       email: "info@gmail.com",
       createdAt: "2022-01-01T00:00:00Z",
       amount: 100,
@@ -32,7 +32,7 @@ const Earnings = () => {
       fullName: "Jane Smith",
       accountID: 2011,
       gender: "Female",
-      phonNumber: 4567-7894,
+      phonNumber: 4567 - 7894,
       email: "info@gmail.com",
       createdAt: "2022-01-02T00:00:00Z",
       amount: 150,
@@ -44,7 +44,7 @@ const Earnings = () => {
       fullName: "Michael Johnson",
       accountID: 2012,
       gender: "Male",
-      phonNumber: 4567-7894,
+      phonNumber: 4567 - 7894,
       email: "info@gmail.com",
       createdAt: "2022-01-03T00:00:00Z",
       amount: 200,
@@ -83,7 +83,7 @@ const Earnings = () => {
       key: "fullName",
       sorter: (a, b) => a.fullName.localeCompare(b.fullName),
     },
-    
+
     {
       title: t("Email"),
       dataIndex: "email", // Added Email column
@@ -132,20 +132,20 @@ const Earnings = () => {
           <Form layout="inline" className="flex space-x-4">
             <Item name="date">
               <DatePicker
-                className="rounded-md border border-[#2C909D]"
+                className="rounded-md border border-[#00aff5]"
                 // onChange={(date) => setSelectedDate(date)}
                 placeholder={t("Donation Date")}
               />
             </Item>
             <Item name="searchText">
               <Input
-                className="rounded-md w-[70%] md:w-full border border-[#2C909D]"
+                className="rounded-md w-[70%] md:w-full border border-[#00aff5]"
                 placeholder={t("Search")}
-                // onChange={(e) => setSearchText(e.target.value)}
+              // onChange={(e) => setSearchText(e.target.value)}
               />
             </Item>
             <Item>
-              <button className="size-8 rounded-full flex justify-center items-center bg-[#2C909D] text-white">
+              <button className="size-8 rounded-full flex justify-center items-center bg-[#00aff5] text-white">
                 <IoIosSearch className="size-5" />
               </button>
             </Item>
@@ -185,7 +185,7 @@ const Earnings = () => {
           <div className="p-5">
             <div className="flex  items-center">
               <h1 className="text-center text-2xl font-semibold my-2 ml-2">
-              {t("Transaction Details")}
+                {t("Transaction Details")}
               </h1>
             </div>
             {selectedRecord && (
@@ -223,8 +223,8 @@ const Earnings = () => {
                   <p>{selectedRecord.paymentType}</p>
                 </div>
                 <div className="flex justify-between py-3 ">
-                  <button className=" bg-[#2C909D] py-2 px-5 w-[49%] rounded-md">{t("Approve")}</button>
-                  <button className="border border-[#2C909D] py-2 px-5 w-[49%] rounded-md">{t("Cancel")}</button>
+                  <button className=" bg-[#00aff5] py-2 px-5 w-[49%] rounded-md">{t("Approve")}</button>
+                  <button className="border border-[#00aff5] py-2 px-5 w-[49%] rounded-md">{t("Cancel")}</button>
                 </div>
               </>
             )}
