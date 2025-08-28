@@ -97,6 +97,12 @@ const Earnings = () => {
       sorter: (a, b) => a.location.localeCompare(b.location),
     },
     {
+      title: t("amount"),
+      dataIndex: "amount", // Added Location column
+      key: "amount",
+      sorter: (a, b) => a.location.localeCompare(b.location),
+    },
+    {
       title: t("Join Date"),
       dataIndex: "date",
       key: "date",

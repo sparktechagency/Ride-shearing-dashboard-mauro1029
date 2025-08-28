@@ -104,10 +104,10 @@ const router = createBrowserRouter([
         path: "/ChangeRequest/Details/:id",
         element: <ChangeRequestDetailsPage />,
       },
-      {
-        path: "Subscription",
-        element: <SubscriptionPage />,
-      },
+      // {
+      //   path: "Subscription",
+      //   element: <SubscriptionPage />,
+      // },
       {
         path: "Subscription/add",
         element: <SubscriptionAddPage />,

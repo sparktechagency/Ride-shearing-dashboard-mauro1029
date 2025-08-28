@@ -11,6 +11,7 @@ import { useDispatch } from "react-redux";
 import { NavLink, useNavigate } from "react-router-dom";
 import { logoutUser } from "../../../redux/features/auth/authSlice";
 import logo from "/public/logo/logo.png";
+import { ImUserPlus } from "react-icons/im";
 
 const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
   const navigate = useNavigate();
@@ -35,18 +36,18 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
     {
       path: "/driver",
       name: t("Drivers"),
-      icon: <FaUserAlt className="size-6" />,
+      icon: <ImUserPlus className="size-6" />,
     },
     {
       path: "/Earnings",
       name: t("Earnings"),
       icon: <RiMoneyDollarCircleFill className="size-6" />,
     },
-    {
-      path: "/Subscription",
-      name: t("Subscription"),
-      icon: <HiLightBulb className="size-8" />,
-    },
+    // {
+    //   path: "/Subscription",
+    //   name: t("Subscription"),
+    //   icon: <HiLightBulb className="size-8" />,
+    // },
 
     {
       path: "/settings",
@@ -74,8 +75,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
                   key={item.name}
                   to={item.path}
                   className={({ isActive }) =>
-                    `w-[80%] mx-auto px-5 py-4 flex items-center gap-3  rounded-md transition-all duration-300 ease-in-out hover:bg-[#EAF5F9] ${
-                      isActive ? "bg-[#00b0f594]" : ""
+                    `w-[80%] mx-auto px-5 py-4 flex items-center gap-3  rounded-md transition-all duration-300 ease-in-out hover:bg-[#EAF5F9] ${isActive ? "bg-[#00b0f594]" : ""
                     }`
                   }
                 >
@@ -97,9 +97,8 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
 
       {/* Mobile Sidebar */}
       <div
-        className={`fixed top-0 left-0 z-40 w-64 h-full bg-[#4C7E95] shadow-lg transform ${
-          isSidebarOpen ? "translate-x-0" : "-translate-x-full"
-        } transition-transform duration-300 ease-in-out md:hidden`}
+        className={`fixed top-0 left-0 z-40 w-64 h-full bg-[#4C7E95] shadow-lg transform ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"
+          } transition-transform duration-300 ease-in-out md:hidden`}
       >
         <div className="flex flex-col justify-center items-center pt-5 gap-2 text-white">
           <img src={logo} alt="logo" className="h-20 mb-5" />
@@ -111,8 +110,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
               to={item.path}
               onClick={toggleSidebar}
               className={({ isActive }) =>
-                `w-[70%] mx-auto px-5 py-2 flex items-center gap-3 text-[#FFFFFF] rounded-md transition-all duration-300 ease-in-out hover:bg-[#337a96] ${
-                  isActive ? "bg-[#00AFF5]" : ""
+                `w-[70%] mx-auto px-5 py-2 flex items-center gap-3 text-[#FFFFFF] rounded-md transition-all duration-300 ease-in-out hover:bg-[#337a96] ${isActive ? "bg-[#00AFF5]" : ""
                 }`
               }
             >

@@ -1,6 +1,7 @@
 {
   "Terms Of Conditions": "Términos y Condiciones",
   "Total Subscription": "Suscripción Total",
+  "amount": "Monto",
   "Total Earnings": "Ganancias Totales",
   "Last month total": "Total del mes pasado",
   "Total Earnings this month": "Ganancias Totales de este mes",
@@ -91,7 +92,6 @@
   "Join Date": "Fecha de Unión",
   "Search": "Buscar",
   "Donation Date": "Fecha de Donación",
-
   "Activate CoBag Sky now": "Activa CoBag Sky ahora",
   "One subscription, unique benefits": "Una suscripción, beneficios únicos",
   "0% commission on all transactions": "0% de comisión en todas las transacciones",
@@ -125,9 +125,7 @@
   "Reports & Disputes": "Informes y Disputas",
   "no": "no",
   "Dashboard Admin": "Tablero Admin",
-
   "Total": "Total",
-
   "Details": "Detalles",
   "Bashar": "Bashar",
   "supportinfo@gmail.com": "supportinfo@gmail.com",
@@ -135,7 +133,6 @@
   "Time&Date": "Hora y Fecha",
   "Actions": "Acciones",
   "Joined": "Registrado",
-
   "Accept": "Aceptar",
   "Driver Details": "Detalles del Conductor",
   "Date_of_Birth": "Fecha de Nacimiento",
@@ -145,7 +142,6 @@
   "License": "Licencia",
   "Joining_Date": "Fecha de Registro",
   "Transaction Details": "Detalles de la Transacción",
-
   "Withdraw Amount ": "Monto de Retiro",
   "A/C number": "Número de Cuenta",
   "Subscription Type": "Tipo de Suscripción",
@@ -153,7 +149,6 @@
   "Pending": "Pendiente",
   "Cancel": "Cancelar",
   "Subscription buying user": "Usuario comprando suscripción",
-
   "Personal Information": "Información Personal",
   "admin": "admin",
   "Admin": "Administrador",
@@ -222,7 +217,6 @@
   "Please Input Your Old Password!": "¡Por favor ingresa tu contraseña antigua!",
   "Please Input Your New Password!": "¡Por favor ingresa tu nueva contraseña!",
   "Please Input Your Re-enter Password!": "¡Por favor ingresa tu contraseña de nuevo!",
-
   "Confirm Logout": "Confirmar Cierre de Sesión",
   "Edit": "Editar",
   "Delete": "Eliminar",

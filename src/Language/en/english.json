@@ -1,7 +1,7 @@
 {
   "Terms Of Conditions": "Terms Of Conditions",
   "Total Subscription": "Total Subscription",
-
+  "amount": "Amount",
   "Last month total": "Last month total",
   "Total Earnings this month": "Total Earnings this month",
   "Income and Performance Analytics": "Income and Performance Analytics",
@@ -15,7 +15,6 @@
   "Edit Terms and Conditions": "Edit Terms and Conditions",
   "First Name": "First Name",
   "Last Name": "Last Name",
-
   "Joined Date Time": "Joined Date Time",
   "Edit Privacy Policy": "Edit Privacy Policy",
   "Change Password": "Change Password",
@@ -142,7 +141,6 @@
   "Total Earnings": "Total Earnings",
   "Total User": "Total User",
   "Overview": "Overview",
-
   "Dashboard": "Dashboard",
   "Confirm Logout": "Confirm Logout",
   "Recent User Details": "Recent User Details",
@@ -267,7 +265,6 @@
   "Terms of Conditions": "Terms of Conditions",
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim repellat facere laudantium voluptates! Sapiente temporibus non officia eligendi vitae repellendus dolorum impedit, consequuntur aspernatur, rem autem labore, provident quaerat voluptates odio. Consectetur amet quo deserunt autem? Ducimus quia eius, at sequi aperiam quibusdam voluptatum eligendi praesentium, necessitatibus hic, dolorem omnis rem quo? Ex, maxime? Obcaecati nesciunt harum omnis asperiores maxime sapiente architecto ad quae necessitatibus at? Sunt eveniet ipsa aliquam iusto voluptatibus quasi enim. Iste rem enim totam, nobis qui repudiandae nam placeat a delectus, explicabo dolor. Est aliquam quam explicabo ratione deleniti quidem quo, veritatis, commodi velit illum minus.": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim repellat facere laudantium voluptates! Sapiente temporibus non officia eligendi vitae repellendus dolorum impedit, consequuntur aspernatur, rem autem labore, provident quaerat voluptates odio. Consectetur amet quo deserunt autem? Ducimus quia eius, at sequi aperiam quibusdam voluptatum eligendi praesentium, necessitatibus hic, dolorem omnis rem quo? Ex, maxime? Obcaecati nesciunt harum omnis asperiores maxime sapiente architecto ad quae necessitatibus at? Sunt eveniet ipsa aliquam iusto voluptatibus quasi enim. Iste rem enim totam, nobis qui repudiandae nam placeat a delectus, explicabo dolor. Est aliquam quam explicabo ratione deleniti quidem quo, veritatis, commodi velit illum minus.",
   "About Us": "About Us",
-
   "Managing journeys and shipments": "Managing journeys and shipments",
   "Track and manage proposed trips and current shipments": "Track and manage proposed trips and current shipments",
   "Plane": "Plane",
